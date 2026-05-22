@@ -10,4 +10,4 @@ username = input("Enter your username: ") # input function
 # standard ouput 
 print(username)
 # standard errors
-print(j) # this evokes a NameErro since it has not been defined
+print(j) # this evokes a NameError since it has not been defined
