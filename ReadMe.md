@@ -11,3 +11,8 @@
 - create a `.gitignore` file in the root folder, this will allow us to separate what is not meant to be *version controlled* and what is meant to be version controlled.
 
 - add environment to `.gitignore` file, 
+
+
+
+Simple Standard input/output: 
+![alt text](image.png)
