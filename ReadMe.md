@@ -17,6 +17,7 @@
 Simple Standard input/output:  
 ![alt text](image-1.png)
 
+![alt text](image-2.png)
 
 Resources: 
 [Python Doc](https://docs.python.org/3/tutorial/index.html)
