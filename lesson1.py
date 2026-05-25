@@ -34,11 +34,21 @@ USER_NAME = "JOHN WICK" # this approach can be used for contants, howver, not th
 print(user_name)
 print(userName)
 print(USER_NAME)
-print(petName)
-
+# print(petName) # return an error, since the variable petName has not been defined yet
 user_name = "Michael Schumaker" # redefing a variable
- 
 print(user_name)
-
 USER_NAME = "VALENTINO ROSSI"
-petName = "Scruffles"
+# petName = "Scruffles"
+
+
+"""
+
+SUMMARY: 
+- we have three forms of interactions with the program: 
+    - Standard input
+    - Standard output
+    - Standard error
+
+- Variable: (store refrences to something in memory)
+- you must define a varibale before using it and not after using it
+"""

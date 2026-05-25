@@ -14,5 +14,10 @@
 
 
 
-Simple Standard input/output: 
-![alt text](image.png)
+Simple Standard input/output:  
+![alt text](image-1.png)
+
+
+Resources: 
+[Python Doc](https://docs.python.org/3/tutorial/index.html)
+[w3schools](https://www.w3schools.com/python/default.asp)
