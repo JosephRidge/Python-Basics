@@ -10,7 +10,7 @@ Rational:
 DATA TYPES: 
 - Text (strings)
 - Numbers(Integer, Float, complex)
-- Lists (set, array, tuple, dictionary)
+- Lists (set, array, tuple, dictionary) # basic data structures
 """
 
 # Strings 
