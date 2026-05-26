@@ -9,8 +9,8 @@ Rational:
     
 DATA TYPES: 
 - Text (strings)
-- Lists (set, array, tuple, dictionary)
 - Numbers(Integer, Float, complex)
+- Lists (set, array, tuple, dictionary)
 """
 
 # Strings 
@@ -64,6 +64,48 @@ wikiText = "Wikipedia[e] is a free online encyclopedia written and maintained by
 #     print(i)
 
 # output = wikiText[0]
+
+pageName ="Wikipedia"
+output = pageName[3:8:3]
+wikiText = """
+Wikipedia[e] is a free online encyclopedia written
+ and maintained by a community of volunteers, 
+ known as Wikipedians, through open collaboration and
+  the wiki software MediaWiki. Founded by Jimmy Wales and 
+  Larry Sanger in 2001, Wikipedia has been hosted since 2003 
+  by the Wikimedia Foundation, an American nonprofit organization 
+  funded mainly by donations from readers.[1] Wikipedia is the largest and most read reference work in history.[2][3]
+"""
+output = wikiText
+
+pageName = "Youtube"
+output = pageName[-2]
+
+statement = 'The puppy is John\'s' # SyntaxError: unterminated string literal (detected at line 99), the remedy is to add an excae character before the 2nd quotation mark
+statement = "The puppy is John's" # this is another rememdey => preferred
+statement = "The puppy \n \bis \bJohn's"
+output = statement
+# Numbers(Integer, Float, complex)
+"""
+- Integers are whole numbers  that span from 0 to +ve infinity and  0 to -ve infinity
+- Integers stem from athe int() class: <class 'int'>
+- can be subjected to mathematical computations
+"""
+
+age = 10
+
+output = type(age) # getting the data type
+
+age = age + 1 # summation
+age += 1 
+output = age 
+
+output = type(age) # getting the data type
+age = str(age) # casting the integer value of age into a string
+output = type(age) # getting the data type
+age = int(age) # cast bck to int
+output = age
+output = type(age) # getting the data type
 
 print("=====================================")
 print(output)
