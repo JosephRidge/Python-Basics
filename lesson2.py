@@ -85,6 +85,7 @@ statement = 'The puppy is John\'s' # SyntaxError: unterminated string literal (d
 statement = "The puppy is John's" # this is another rememdey => preferred
 statement = "The puppy \n \bis \bJohn's"
 output = statement
+
 # Numbers(Integer, Float, complex)
 """
 - Integers are whole numbers  that span from 0 to +ve infinity and  0 to -ve infinity
@@ -106,6 +107,29 @@ output = type(age) # getting the data type
 age = int(age) # cast bck to int
 output = age
 output = type(age) # getting the data type
+
+
+"""
+- Float are fractions/ numbers with decimals 
+- the more the decimal points the more the better accuracy eg location info eg latitude and longitude => if you 37.56(ambigous) and 37.567890 (more accurate)
+- Float stems from the float() class: <class 'float'>
+- can be subjected to mathematical computations
+"""
+
+
+weight = 20.75
+output =type(weight)
+output = int(weight) # perfoms a truncation of the data 
+output = float(200) # converted into a floating point data type
+"""
+- Complex number are often encounted in mathematical situations / approximations => computation technics or numerical analysis
+- Complex data types stem from the complex() class:  <class 'complex'>
+"""
+
+output = complex(2)
+output = 200j # the character j represents complex
+output = type(output)
+
 
 print("=====================================")
 print(output)
