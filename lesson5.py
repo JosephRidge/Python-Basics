@@ -29,7 +29,7 @@ fruits_two = fruits.copy()
 while (len(fruits_two) <= len(fruits)):
     print(fruits)
     print(fruits_two)
-    # fruits.pop() # it will pop last item
+    # fruits.pop() # it will remove last item
     fruits_two.append("guavas")
     print(fruits_two)
 
