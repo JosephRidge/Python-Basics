@@ -10,6 +10,7 @@ Lists:
 
 """
 output ="" # global variable
+
 """
 Array: 
     - can be composed of different data types
@@ -74,3 +75,4 @@ output = fruits
 print("=======================================")
 print(output)
 print("=======================================")
+
