@@ -1,13 +1,4 @@
-"""
-    Control flows: 
-        - for loop
-        - while loop
-        - do.. while loop
-    - Functions:
-        - parameterized
-        - non-parameterized
-        - anonymous function (lambda functions)
-"""
+
 
 # loops => running iteration:
 
@@ -27,10 +18,9 @@ for fruit in fruits:
 fruits_two = fruits.copy()
 
 while (len(fruits_two) <= len(fruits)):
-    print(fruits)
-    print(fruits_two)
+    # print(fruits)
+    # print(fruits_two)
     # fruits.pop() # it will remove last item
     fruits_two.append("guavas")
-    print(fruits_two)
-
-
+    # print(fruits_two)
+ 
